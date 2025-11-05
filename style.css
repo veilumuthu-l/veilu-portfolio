@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #0d6efd;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+.section {
+  padding: 3rem 1rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  color: #0d6efd;
+  margin-bottom: 1rem;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 1rem auto;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li {
+  background: #0d6efd;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+.project-card {
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.contact-list li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background: #0d6efd;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
